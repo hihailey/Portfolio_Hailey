@@ -1,0 +1,48 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 650px;
+  min-height: fit-content;
+  font-size: 40px;
+}
+
+.profile-picture {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.profile-image {
+  background-image: url("../../img/Hailey.png");
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 300px;
+  height: 500px;
+}
+
+#profile-span {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+.btn {
+  min-height: 50px;
+  padding: 0px 30px;
+  margin-top: 25px;
+  background: #f2672e;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  flex: 0.6;
+}
+
+.highlighted-text {
+  font-weight: 600;
+  letter-spacing: 1px;
+}

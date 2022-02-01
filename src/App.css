@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+body {
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  color: #f9fafb;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+body {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 0% 1%,
+    rgba(193, 112, 193, 1) 0%,
+    rgba(63, 81, 181, 1) 39%,
+    rgba(18, 24, 56, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 0% 1%,
+    rgba(193, 112, 193, 1) 0%,
+    rgba(63, 81, 181, 1) 39%,
+    rgba(18, 24, 56, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 0% 1%,
+    rgba(193, 112, 193, 1) 0%,
+    rgba(63, 81, 181, 1) 39%,
+    rgba(18, 24, 56, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 0% 1%,
+    rgba(193, 112, 193, 1) 0%,
+    rgba(63, 81, 181, 1) 39%,
+    rgba(18, 24, 56, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 0% 1%,
+    rgba(193, 112, 193, 1) 0%,
+    rgba(63, 81, 181, 1) 39%,
+    rgba(18, 24, 56, 1) 100%
+  );
+}
+
+.gradient_text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+
+.Nav {
+  background: none;
+  height: 100px;
+  display: grid;
+
+  align-items: center;
+  /* padding: 0.2rem calc((100vw - 1000px) / 2); */
+  padding: 0px 100px;
+  z-index: 12;
+  font-weight: 300;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.Navlogo img {
+  height: 70px;
+  weight: 100px;
+}
+
+.all-content-wrapper {
+  padding: 0px 60px;
+}
+
+.content-wrapper {
+  border: 1px solid #e5e7eb;
+  background: rgba(175, 157, 211, 0.15);
+  border-radius: 24px;
+  margin: 150px 0px;
+}
+.content-title {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+  font-weight: 700;
+  text-decoration: underline solid #9480d5;
+  text-underline-offset: 1em;
+  font-size: 20px;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
